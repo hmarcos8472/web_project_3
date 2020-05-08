@@ -1,0 +1,35 @@
+.cover__item {
+  text-decoration: none;
+  color: white;
+  min-height: 740px;
+  background-image: url("../../../images/cover-route-66.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 92%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1
+}
+
+.cover__item::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.cover__item:hover {
+  opacity: 80%;
+  transition-duration: .5s;
+  z-index: -1;
+}

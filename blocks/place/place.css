@@ -1,0 +1,69 @@
+@import url("./__title/place__title.css");
+@import url("./__paragraph/place__paragraph.css");
+@import url("./__image/place__image.css");
+@import url("./__paragraph/place__paragraph.css");
+@import url("./__url/place__url.css");
+@import url("./__url-heading/place__url-heading.css");
+
+.place {
+  padding-bottom: 7.45vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+  "title website"
+  "image paragraph";
+  grid-column-gap: 3.75vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 350px;
+  }
+  .place__title {
+    max-width: 440px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .place__image {
+    max-width: 340px;
+  }
+  .place__title {
+    max-width: 340px;
+    font-size: 42px;
+  }
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .place {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+    "title"
+    "image"
+    "paragraph"
+    "website"
+  }
+  .place__url {
+    content: "";
+    margin-left: 3vw;
+  }
+  .place__url-heading {
+    content: "";
+    margin-left: 3vw;
+    margin-top: 3vh;
+  }
+  .place__title {
+    max-width: 320px;
+    font-size: 32px;
+    margin-left: 3vw;
+  }
+  .place__paragraph {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+}

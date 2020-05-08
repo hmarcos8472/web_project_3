@@ -1,0 +1,7 @@
+.place__title {
+  font-size: 76px;
+  line-height: .9;
+  font-weight: 900;
+  margin: 0 0 6.25vh;
+  grid-area: title;
+}

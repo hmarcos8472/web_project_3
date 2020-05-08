@@ -1,0 +1,48 @@
+@import url("./__content-row/intro__content-row.css");
+@import url("./__text/intro__text.css");
+@import url("./__title/intro__title.css");
+@import url("./__stat/intro__stat.css");
+
+.intro {
+  color: white;
+  padding-bottom: 8.25vh;
+  padding-top: 8.25vh;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 90%;
+    max-width: 928px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 825px) {
+  .intro {
+    width: 93%;
+  }
+  .intro__text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro {
+    width: 98%;
+  }
+  .intro__text {
+    width: 100%;
+  }
+  .intro__title {
+    font-size: 40px;
+    width: 100%;
+  }
+  .intro__content-row {
+    width: 100%;
+    font-size: 24px;
+    line-height: 125%;
+  }
+}

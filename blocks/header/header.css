@@ -1,0 +1,44 @@
+@import url("./__language-link/header__language-link.css");
+@import url("./__language-link/_option/header__language-link_option_english.css");
+@import url("./__language-link/_option/header__language-link_option_spanish.css");
+@import url("./__language-links/header__language-links.css");
+@import url("./__logo/header__logo.css");
+
+.header {
+  margin: 0 auto 6vh;
+  padding-top: 3.66vh;
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 90%;
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 825px) {
+  .header {
+    width: 93%;
+  }
+}
+@media (min-width: 500px) and (max-width: 700px) {
+  .header {
+    width: 97%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    width: 100%;
+  }
+  .header__language-link {
+    font-size: 18px;
+  }
+  .header__logo {
+    max-width: 156px;
+  }
+}

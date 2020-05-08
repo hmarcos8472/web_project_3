@@ -8,4 +8,5 @@
 .header__language-link:hover {
   transition-duration: .5s;
   opacity: 80%;
+  cursor: pointer;
 }

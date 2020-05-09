@@ -1,7 +1,6 @@
 @import url("./__title/place__title.css");
 @import url("./__paragraph/place__paragraph.css");
 @import url("./__image/place__image.css");
-@import url("./__paragraph/place__paragraph.css");
 @import url("./__url/place__url.css");
 @import url("./__url-heading/place__url-heading.css");
 
@@ -18,14 +17,14 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    max-width: 350px;
+    max-width: 440px;
   }
   .place__title {
     max-width: 440px;
   }
 }
 
-@media (min-width: 500px) and (max-width: 700px) {
+@media (min-width: 500px) and (max-width: 770px) {
   .place__image {
     max-width: 340px;
   }
@@ -46,7 +45,7 @@
     "title"
     "image"
     "paragraph"
-    "website"
+    "website";
   }
   .place__url {
     content: "";

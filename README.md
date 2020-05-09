@@ -13,5 +13,4 @@ This is a project about traveling across the US. We've made it so all the elemen
 
 * [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
 
-**Link to GH pages**
 [Link to project hosted on Github pages](https://hmarcos8472.github.io/web_project_3/)

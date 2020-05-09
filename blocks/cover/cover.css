@@ -11,6 +11,9 @@
     width: 100%;
     min-height: 640px;
   }
+  .cover__subtitle {
+    width: 28vw;
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 825px) {
@@ -19,17 +22,18 @@
     min-height: 480px;
   }
   .cover__subtitle {
-    width: 30vw;
-    font-size: 16px;
+    width: 37vw;
+    font-size: 18px;
   }
   .cover__title {
-    font-size: 42px;
+    font-size: 72px;
   }
 }
 
 @media (max-width: 500px) {
   .cover__title {
     font-size: 32px;
+    margin-bottom: 1.6vh;
   }
   .cover__item {
     min-height: 320px;
@@ -37,6 +41,6 @@
   }
   .cover__subtitle {
     font-size: 14px;
-    width: 80%;
+    width: 68vw;
   }
 }

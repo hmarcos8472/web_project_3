@@ -1,6 +1,5 @@
 @import url("./__language-link/header__language-link.css");
-@import url("./__language-link/_option/header__language-link_option_english.css");
-@import url("./__language-link/_option/header__language-link_option_spanish.css");
+@import url("./__language-link/_active/header__language-link_active_true.css");
 @import url("./__language-links/header__language-links.css");
 @import url("./__logo/header__logo.css");
 

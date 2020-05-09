@@ -17,11 +17,17 @@
     width: 90%;
     max-width: 928px;
   }
+  .lead__image {
+    min-height: 580px;
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 825px) {
   .lead {
     width: 100%;
+  }
+  .lead__image {
+    min-height: 480px;
   }
 }
 
@@ -36,5 +42,11 @@
   .lead__subtitle {
     font-size: 16px;
     margin: 16px auto 40px;
+  }
+  .lead__image {
+    min-height: 320px;
+  }
+  .lead__caption {
+    width: 95%;
   }
 }

@@ -6,7 +6,7 @@
 @import url("./__stat-list/intro__stat-list.css");
 
 .intro {
-  color: white;
+  color: #fff;
   padding-bottom: 8.25vh;
   padding-top: 8.25vh;
   display: grid;
@@ -56,6 +56,6 @@
   .intro__content-row {
     width: 100%;
     font-size: 24px;
-    line-height: 125%;
+    line-height: 30px;
   }
 }

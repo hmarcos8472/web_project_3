@@ -1,8 +1,8 @@
 .place__url {
   text-decoration: underline;
-  color: white;
+  color: #fff;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 22px;
 }
 
 .place__url:hover {

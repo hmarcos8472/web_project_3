@@ -20,6 +20,9 @@
   .lead__image {
     min-height: 580px;
   }
+  .lead__title {
+    line-height: 100px;
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 825px) {
@@ -28,6 +31,12 @@
   }
   .lead__image {
     min-height: 480px;
+  }
+  .lead__title {
+    line-height: 100px;
+  }
+  .lead__caption {
+    line-height: 14px;
   }
 }
 
@@ -38,15 +47,18 @@
   }
   .lead__title {
     font-size: 40px;
+    line-height: 44px;
   }
   .lead__subtitle {
     font-size: 16px;
     margin: 16px auto 40px;
+    line-height: 20px;
   }
   .lead__image {
-    min-height: 320px;
+    min-height: 200px;
   }
   .lead__caption {
     width: 95%;
+    line-height: 14px;
   }
 }

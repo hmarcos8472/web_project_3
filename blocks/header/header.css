@@ -1,5 +1,5 @@
 @import url("./__language-link/header__language-link.css");
-@import url("./__language-link/_active/header__language-link_active_true.css");
+@import url("./__language-link/_active/header__language-link_active.css");
 @import url("./__language-links/header__language-links.css");
 @import url("./__logo/header__logo.css");
 
@@ -36,6 +36,7 @@
   }
   .header__language-link {
     font-size: 18px;
+    line-height: 24px;
   }
   .header__logo {
     max-width: 156px;

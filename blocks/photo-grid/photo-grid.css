@@ -1,8 +1,9 @@
 @import url("./__item/photo-grid__item.css");
 
 .photo-grid {
-  width: 92%;
-  max-width: 1184px;
+  width: 93.5%;
+  min-height: 678px;
+  max-width: 1250px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -15,8 +16,9 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    width: 90%;
-    max-width: 928px;
+    width: 92%;
+    max-width: 930px;
+    min-height: 946px;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(4, auto);
   }
@@ -36,7 +38,8 @@
 
 @media (max-width: 500px) {
   .photo-grid {
-    width: 98%;
+    width: 90%;
+    min-height: 2645px;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(12, auto);
   }

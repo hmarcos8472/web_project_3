@@ -7,6 +7,7 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 92%;
+  max-width: 1184px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -20,7 +21,7 @@
   content: "";
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: #000;
   opacity: 30%;
   position: absolute;
   top: 0;
